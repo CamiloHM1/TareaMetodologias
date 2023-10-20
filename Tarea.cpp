@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-string nombre, codigo;
+string nombre, codigo, materia;
 int main(){
     nombre = "Juan Camilo Henao";
     codigo = "2024133";
-    cout <<nombre<<"\t"<<codigo; 
+    materia = "Metodologias de Desarrollo de Software";
+    cout <<nombre<<"\t"<<codigo<<"\t"<<materia; 
 }
